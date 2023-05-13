@@ -1,8 +1,6 @@
-* {
-background-color: black;
-    color:white ;
-    margin: 0;
-    padding: 0;
+*{
+    background-color: black;
+    color: white;
 }
 .header {
     min-height: 100vh;
@@ -27,14 +25,15 @@ nav img {
     margin-top: -125px;
     margin-left: -55px;
    position: absolute;
-   float: left;
+   float: right;
 
 }
 
 .nav-bar {
     flex:1;
     text-align: center;
-   
+    position: relative;
+    
 }
 
 .nav-bar ul li {
@@ -45,7 +44,6 @@ nav img {
     text-align: center;
     vertical-align: top;
     position: relative;
-
 }
 
 .nav-bar ul li a {
@@ -67,3 +65,61 @@ nav img {
 .nav-bar ul li :hover::after{
     width:100%;
 }
+
+
+
+.footer{
+    margin-top: 150px;
+    padding: 25px 15%;
+    color: #efefef;
+    display: flex;
+    background: black;
+ }
+ .footer div{
+     text-align: center;
+ }
+ .col-2{
+     flex-grow: 2;
+ }
+ .footer div h3{
+     font-weight: 300;
+     margin-bottom: 30px;
+     letter-spacing: 1px;
+ }
+ .col-1 a{
+     display: block;
+     text-decoration: none;
+     color: #efefef;
+     margin-bottom: 10px;
+ }
+ form input{
+     width: 400px;
+     height: 45px;
+     border-radius: 4px;
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 40px;
+     outline: none;
+     border: none;
+ }
+ form button{
+     background: transparent;
+     border: 2px solid #fff;
+     color: #fff;
+     border-radius: 30px;
+     padding: 10px 30px;
+     font-size: 15px;
+     cursor: pointer;
+ }
+ .social-icons{
+     margin-top: 0px;
+ }
+ .social-icons i{
+     font-size: 22px;
+     margin: 10px;
+     cursor: pointer;
+ }
+ .col-2 p {
+  margin-top: 50px;
+  margin-bottom: 0%;
+ }
