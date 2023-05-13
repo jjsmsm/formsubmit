@@ -10,7 +10,6 @@ font-family: 'Poppins', sans-serif;
     background-image: url(./BMW.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
 }
 
 nav { 
