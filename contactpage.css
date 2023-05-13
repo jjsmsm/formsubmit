@@ -22,11 +22,10 @@ nav {
 nav img {
    width: 375px;
     height: 375px;
-    margin-top: -125px;
+    margin-top: -132px;
     margin-left: -55px;
    position: absolute;
    float: right;
-
 }
 
 .nav-bar {
@@ -65,9 +64,6 @@ nav img {
 .nav-bar ul li :hover::after{
     width:100%;
 }
-
-
-
 .footer{
     margin-top: 150px;
     padding: 25px 15%;
